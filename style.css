@@ -1,0 +1,44 @@
+* {
+   color-scheme: dark;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: saddlebrown;
+}
+
+input {
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+button {
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+@media (max-width:490px) {
+    button {
+        margin-top: 20px;
+    }
+}
+
+button:hover {
+    transform: 360deg;    
+}
+@media (max-width: 500px) {
+    #text2 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    #text2 {
+        margin-top: 20px;
+    }
+}
